@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		19D969A91E539FAF00B97433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969A81E539FAF00B97433 /* AppDelegate.swift */; };
-		19D969AB1E539FAF00B97433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969AA1E539FAF00B97433 /* ViewController.swift */; };
+		19D969AB1E539FAF00B97433 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969AA1E539FAF00B97433 /* MainVC.swift */; };
 		19D969AE1E539FAF00B97433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D969AC1E539FAF00B97433 /* Main.storyboard */; };
 		19D969B11E539FAF00B97433 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19D969AF1E539FAF00B97433 /* DreamLister.xcdatamodeld */; };
 		19D969B31E539FAF00B97433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D969B21E539FAF00B97433 /* Assets.xcassets */; };
 		19D969B61E539FAF00B97433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D969B41E539FAF00B97433 /* LaunchScreen.storyboard */; };
+		19D969D71E53A65B00B97433 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969CF1E53A65B00B97433 /* Item+CoreDataClass.swift */; };
+		19D969D81E53A65B00B97433 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969D01E53A65B00B97433 /* Item+CoreDataProperties.swift */; };
+		19D969D91E53A65B00B97433 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969D11E53A65B00B97433 /* ItemType+CoreDataClass.swift */; };
+		19D969DA1E53A65B00B97433 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969D21E53A65B00B97433 /* ItemType+CoreDataProperties.swift */; };
+		19D969DB1E53A65B00B97433 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969D31E53A65B00B97433 /* Image+CoreDataClass.swift */; };
+		19D969DC1E53A65B00B97433 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969D41E53A65B00B97433 /* Image+CoreDataProperties.swift */; };
+		19D969DD1E53A65B00B97433 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969D51E53A65B00B97433 /* Store+CoreDataClass.swift */; };
+		19D969DE1E53A65B00B97433 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969D61E53A65B00B97433 /* Store+CoreDataProperties.swift */; };
+		19D969E01E548DA800B97433 /* dellMonistor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19D969DF1E548DA800B97433 /* dellMonistor.jpg */; };
+		19D969E31E548DEA00B97433 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969E21E548DEA00B97433 /* MaterialView.swift */; };
+		19D969E51E54CAA000B97433 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969E41E54CAA000B97433 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19D969A51E539FAF00B97433 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D969A81E539FAF00B97433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19D969AA1E539FAF00B97433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19D969AA1E539FAF00B97433 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		19D969AD1E539FAF00B97433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19D969B01E539FAF00B97433 /* DreamLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister.xcdatamodel; sourceTree = "<group>"; };
 		19D969B21E539FAF00B97433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D969B51E539FAF00B97433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D969B71E539FAF00B97433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D969CF1E53A65B00B97433 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		19D969D01E53A65B00B97433 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		19D969D11E53A65B00B97433 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		19D969D21E53A65B00B97433 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		19D969D31E53A65B00B97433 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		19D969D41E53A65B00B97433 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		19D969D51E53A65B00B97433 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		19D969D61E53A65B00B97433 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		19D969DF1E548DA800B97433 /* dellMonistor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dellMonistor.jpg; sourceTree = "<group>"; };
+		19D969E21E548DEA00B97433 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		19D969E41E54CAA000B97433 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +78,11 @@
 		19D969A71E539FAF00B97433 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				19D969E11E548DC500B97433 /* View */,
+				19D969CD1E53A4F000B97433 /* Model */,
 				19D969A81E539FAF00B97433 /* AppDelegate.swift */,
-				19D969AA1E539FAF00B97433 /* ViewController.swift */,
+				19D969AA1E539FAF00B97433 /* MainVC.swift */,
+				19D969DF1E548DA800B97433 /* dellMonistor.jpg */,
 				19D969AC1E539FAF00B97433 /* Main.storyboard */,
 				19D969B21E539FAF00B97433 /* Assets.xcassets */,
 				19D969B41E539FAF00B97433 /* LaunchScreen.storyboard */,
@@ -65,6 +90,38 @@
 				19D969AF1E539FAF00B97433 /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		19D969CD1E53A4F000B97433 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19D969CF1E53A65B00B97433 /* Item+CoreDataClass.swift */,
+				19D969D11E53A65B00B97433 /* ItemType+CoreDataClass.swift */,
+				19D969D31E53A65B00B97433 /* Image+CoreDataClass.swift */,
+				19D969D51E53A65B00B97433 /* Store+CoreDataClass.swift */,
+				19D969CE1E53A4FE00B97433 /* Generated */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		19D969CE1E53A4FE00B97433 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				19D969D01E53A65B00B97433 /* Item+CoreDataProperties.swift */,
+				19D969D21E53A65B00B97433 /* ItemType+CoreDataProperties.swift */,
+				19D969D41E53A65B00B97433 /* Image+CoreDataProperties.swift */,
+				19D969D61E53A65B00B97433 /* Store+CoreDataProperties.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		19D969E11E548DC500B97433 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19D969E21E548DEA00B97433 /* MaterialView.swift */,
+				19D969E41E54CAA000B97433 /* ItemCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +187,7 @@
 				19D969B61E539FAF00B97433 /* LaunchScreen.storyboard in Resources */,
 				19D969B31E539FAF00B97433 /* Assets.xcassets in Resources */,
 				19D969AE1E539FAF00B97433 /* Main.storyboard in Resources */,
+				19D969E01E548DA800B97433 /* dellMonistor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +198,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D969AB1E539FAF00B97433 /* ViewController.swift in Sources */,
+				19D969E51E54CAA000B97433 /* ItemCell.swift in Sources */,
+				19D969DC1E53A65B00B97433 /* Image+CoreDataProperties.swift in Sources */,
+				19D969D91E53A65B00B97433 /* ItemType+CoreDataClass.swift in Sources */,
+				19D969AB1E539FAF00B97433 /* MainVC.swift in Sources */,
+				19D969E31E548DEA00B97433 /* MaterialView.swift in Sources */,
 				19D969A91E539FAF00B97433 /* AppDelegate.swift in Sources */,
+				19D969DE1E53A65B00B97433 /* Store+CoreDataProperties.swift in Sources */,
+				19D969DB1E53A65B00B97433 /* Image+CoreDataClass.swift in Sources */,
+				19D969D71E53A65B00B97433 /* Item+CoreDataClass.swift in Sources */,
 				19D969B11E539FAF00B97433 /* DreamLister.xcdatamodeld in Sources */,
+				19D969DD1E53A65B00B97433 /* Store+CoreDataClass.swift in Sources */,
+				19D969DA1E53A65B00B97433 /* ItemType+CoreDataProperties.swift in Sources */,
+				19D969D81E53A65B00B97433 /* Item+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
