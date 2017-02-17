@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		199EC64B1E5723E300DB045B /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199EC64A1E5723E300DB045B /* ItemDetailsVC.swift */; };
 		19D969A91E539FAF00B97433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969A81E539FAF00B97433 /* AppDelegate.swift */; };
 		19D969AB1E539FAF00B97433 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D969AA1E539FAF00B97433 /* MainVC.swift */; };
 		19D969AE1E539FAF00B97433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D969AC1E539FAF00B97433 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		199EC64A1E5723E300DB045B /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		19D969A51E539FAF00B97433 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D969A81E539FAF00B97433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D969AA1E539FAF00B97433 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -59,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		199EC6491E57239D00DB045B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19D969AA1E539FAF00B97433 /* MainVC.swift */,
+				199EC64A1E5723E300DB045B /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		19D9699C1E539FAF00B97433 = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +92,7 @@
 				19D969E11E548DC500B97433 /* View */,
 				19D969CD1E53A4F000B97433 /* Model */,
 				19D969A81E539FAF00B97433 /* AppDelegate.swift */,
-				19D969AA1E539FAF00B97433 /* MainVC.swift */,
+				199EC6491E57239D00DB045B /* Controller */,
 				19D969DF1E548DA800B97433 /* dellMonistor.jpg */,
 				19D969AC1E539FAF00B97433 /* Main.storyboard */,
 				19D969B21E539FAF00B97433 /* Assets.xcassets */,
@@ -206,6 +217,7 @@
 				19D969A91E539FAF00B97433 /* AppDelegate.swift in Sources */,
 				19D969DE1E53A65B00B97433 /* Store+CoreDataProperties.swift in Sources */,
 				19D969DB1E53A65B00B97433 /* Image+CoreDataClass.swift in Sources */,
+				199EC64B1E5723E300DB045B /* ItemDetailsVC.swift in Sources */,
 				19D969D71E53A65B00B97433 /* Item+CoreDataClass.swift in Sources */,
 				19D969B11E539FAF00B97433 /* DreamLister.xcdatamodeld in Sources */,
 				19D969DD1E53A65B00B97433 /* Store+CoreDataClass.swift in Sources */,
@@ -374,6 +386,7 @@
 				19D969BC1E539FAF00B97433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
